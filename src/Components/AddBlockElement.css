@@ -1,0 +1,40 @@
+@import "./reset.css";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: inherit;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.add_block-element {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    background: #ffffff;
+    color: rgb(22, 91, 122);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+.add_block-elementHead {
+    font-size: 12px;
+    font-weight: 400;
+}
+.add_block-elementBody {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}

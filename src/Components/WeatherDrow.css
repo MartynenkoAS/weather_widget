@@ -1,0 +1,72 @@
+@import "./reset.css";
+
+*, *::before, *::after {
+    
+    box-sizing: border-box;
+    font-size: 14px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_block {
+    display: flex;
+    flex-direction: row;
+    font-family: inherit;
+    background: #ffffff;
+    color: rgb(22, 91, 122);
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 80%;
+    margin: 20px auto 0;
+    padding: 20px;
+    justify-content: space-between;
+}
+.place {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.place_name {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.place_date {
+    align-items: center;
+}
+.temp {
+    font-size: 70px;
+    font-weight: 900;
+}
+.place_icon {
+    width: 70px;
+    height: 70px;
+}
+
+.add_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.add_block-elementGroup {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: auto;
+    gap: 15px;
+}
+
+.add_block-elmt {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}

@@ -1,0 +1,36 @@
+
+.block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 3px;
+       
+}
+
+input {
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+input::placeholder {
+    color: gainsboro;
+}
+input:focus {
+    color: blue;
+    outline: none;
+}
+
+.imgbutton {
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+    margin: 0;
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
